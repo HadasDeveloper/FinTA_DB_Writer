@@ -1,0 +1,8 @@
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\bin\Debug\FinTA_DB_Writer.exe
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\bin\Debug\FinTA_DB_Writer.pdb
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\bin\Debug\FinTA.dll
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\bin\Debug\Logger.dll
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\bin\Debug\FinTA.pdb
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\obj\x86\Debug\FinTA_DB_Writer.exe
+D:\Alla\Develupment\FinTA\FinTA_DB_Writer\FinTA_DB_Writer\obj\x86\Debug\FinTA_DB_Writer.pdb

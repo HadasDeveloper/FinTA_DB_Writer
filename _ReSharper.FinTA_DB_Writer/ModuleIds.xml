@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="84737C46-E253-48A6-9E5D-6807BC66CC84" ModuleId="FinTA_DB_Writer" />
+  <Module PersistentId="FinTA, Version=1.0.0.0, Culture=neutral" ModuleId="FinTA" />
+  <Module PersistentId="FinTA, Version=1.0.0.0, Culture=neutral" ModuleId="FinTA_1" />
+  <Module PersistentId="FinTA, Version=1.0.0.0, Culture=neutral" ModuleId="FinTA_2" />
+</Modules>
