@@ -7,8 +7,44 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Properties/f:AssemblyInfo.cs" caret="486" fromTop="10" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="180" fromTop="6" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:IndicatorsData.cs" caret="40" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:MarketData.cs" caret="40" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="3465" fromTop="8" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Program.cs" caret="29" fromTop="1" />
+      <File id="d:Miscellaneous Files/f:DataContext.cs/l:D!?Alla?Develupment?FinTA?FinTA?FinTA?Helper?DataContext.cs" caret="1662" fromTop="11" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11935" fromTop="8" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Models/f:StoredProcedures.cs" caret="625" fromTop="12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="4196" fromTop="26" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="4196" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="3" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="7" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="4196" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="4196" fromTop="111" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Models/f:StoredProcedures.cs" caret="1239" fromTop="24" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10841" fromTop="7" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="10872" fromTop="302" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="181" fromTop="6" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="68" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:MarketData.cs" caret="40" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:IndicatorsData.cs" caret="40" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Program.cs" caret="327" fromTop="4" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="12713" fromTop="229" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Program.cs" caret="29" fromTop="1" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="1109" fromTop="19" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="679" fromTop="20" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="3765" fromTop="16" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="12351" fromTop="11" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +57,11 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="FinTA" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="Indicators" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

@@ -21,9 +21,9 @@ namespace FinTA_DB_Writer.Halper
 
         private static readonly FileLogWriter LogWriter = new FileLogWriter();
 
-        public static DataTable GetMarketData(string symbol)
+        public static DataTable GetMarketData(string symbol, string date)
         {
-            return ExecuteSqlForData(string.Format(StoredProcedures.SqlGetOneInstrumentMarketData, symbol)) ?? new DataTable();
+            return ExecuteSqlForData(string.Format(StoredProcedures.SqlGetInstrumentMarketData, symbol, date)) ?? new DataTable();
         }
 
         internal void WriteIndicatorsData(DataTable data)

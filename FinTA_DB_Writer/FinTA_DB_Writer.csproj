@@ -52,8 +52,6 @@
   <ItemGroup>
     <Compile Include="Halper\DataContext.cs" />
     <Compile Include="Halper\DataHelper.cs" />
-    <Compile Include="Halper\IndicatorsData.cs" />
-    <Compile Include="Halper\MarketData.cs" />
     <Compile Include="Models\StoredProcedures.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

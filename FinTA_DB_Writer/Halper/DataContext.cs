@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using FinTA.Models;
 using Logger;
 
 namespace FinTA_DB_Writer.Halper
 {
     public class DataContext
     {
-        public static List<MarketData> GetOneInstrumentMarketData(string symbol)
+        public static List<MarketData> GetOneInstrumentMarketData(string symbol, string date)
         {
-            DataTable table = DataHelper.GetMarketData(symbol);
+            DataTable table = DataHelper.GetMarketData(symbol,date);
             List<MarketData> marketData = new List<MarketData>();
 
             FileLogWriter logWriter = new FileLogWriter();
@@ -38,9 +39,9 @@ namespace FinTA_DB_Writer.Halper
             return marketData;
         }
 
-        public static List<List<MarketData>> GetAllInstrumentsMarketData()
+        public static List<List<MarketData>> GetAllInstrumentsMarketData(string date)
         {
-            DataTable table = DataHelper.GetMarketData("");
+            DataTable table = DataHelper.GetMarketData("",date);
             List<List<MarketData>> marketData = new List<List<MarketData>>();
 
             FileLogWriter logWriter = new FileLogWriter();
