@@ -132,7 +132,7 @@ namespace FinTA_DB_Writer
 
                 looger.WriteToLog(DateTime.Now, string.Format("{0: fff} NegativeVolumeIndex", DateTime.Now), "TimeTest-FinTA");
 
-                NegativeVolumeIndex negativeVolumeIndex = new NegativeVolumeIndex(data);
+                NegativeVolumeIndex negativeVolumeIndex = new NegativeVolumeIndex(data, 79);
                 resultData.AddRange(negativeVolumeIndex.Calculate(mode));
 
                 looger.WriteToLog(DateTime.Now, string.Format("{0: fff} OnBalanceVolume", DateTime.Now), "TimeTest-FinTA");
@@ -157,7 +157,7 @@ namespace FinTA_DB_Writer
 
                 looger.WriteToLog(DateTime.Now, string.Format("{0: fff} RateOfChange", DateTime.Now), "TimeTest-FinTA");
 
-                RateOfChange pateOfChange = new RateOfChange(data, 12);
+                RateOfChange pateOfChange = new RateOfChange(data, 13);
                 resultData.AddRange(pateOfChange.Calculate(mode));
 
                 looger.WriteToLog(DateTime.Now, string.Format("{0: fff} RelativeStrengthIndex", DateTime.Now), "TimeTest-FinTA");
@@ -206,15 +206,21 @@ namespace FinTA_DB_Writer
                 resultData.AddRange(williamR.Calculate(mode));
 
                 looger.WriteToLog(DateTime.Now, string.Format("{0: fff} Write To DB", DateTime.Now), "TimeTest-FinTA");
-                        
-                if(mode.Equals("0"))
+
+                if (mode.Equals("0"))
                 {
-                    DataContext.WriteIndicatorsData(resultData);      
+                    DataContext.WriteIndicatorsData(resultData);
                     resultData = new List<IndicatorsData>();
                 }
-
+  
                 looger.WriteToLog(DateTime.Now, string.Format("{0: fff} done Write To DB", DateTime.Now), "TimeTest-FinTA");
             }
+
+            foreach (var res in resultData)
+            {
+                looger.WriteToLog(DateTime.Now, string.Format("{0} {1}", res.Instrument, res.Indicatore), "TimeTest-FinTA");
+            }
+
 
             if (mode.Equals("1"))
                 DataContext.WriteIndicatorsData(resultData);

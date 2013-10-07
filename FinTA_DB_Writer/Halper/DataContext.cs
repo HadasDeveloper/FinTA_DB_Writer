@@ -47,7 +47,10 @@ namespace FinTA_DB_Writer.Halper
             FileLogWriter logWriter = new FileLogWriter();
             List<MarketData> instrumentData = new List<MarketData>();
 
-            string curentInstrument = table.Rows[0].Field<string>("Instrument");
+            string curentInstrument = "";
+
+            if(table.Rows.Count > 0)
+                curentInstrument = table.Rows[0].Field<string>("Instrument");
 
             foreach (DataRow row in table.Rows)
             {
@@ -96,6 +99,12 @@ namespace FinTA_DB_Writer.Halper
 
             foreach (IndicatorsData indicator in resultData)
             {
+                Logger.FileLogWriter log = new FileLogWriter();
+                log.WriteToLog(DateTime.Now, string.Format(" {0} {1} {2} {3}" ,indicator.Instrument,
+                              indicator.Date,
+                              indicator.Indicatore,
+                              indicator.Value),"FinTA");
+
                 data.Rows.Add(indicator.Instrument,
                               indicator.Date,
                               indicator.Indicatore,
