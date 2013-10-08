@@ -3,6 +3,7 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
@@ -12,40 +13,40 @@
       <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Program.cs" caret="521" fromTop="15" />
       <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Models/f:StoredProcedures.cs" caret="133" fromTop="4" />
       <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataHelper.cs" caret="4971" fromTop="14" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11988" fromTop="12" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="4547" fromTop="22" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/d:Halper/f:DataContext.cs" caret="4647" fromTop="25" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="12053" fromTop="19" />
     </RecentFiles>
     <RecentEdits>
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="2537" fromTop="20" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="2932" fromTop="16" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="3683" fromTop="16" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="4276" fromTop="17" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="3952" fromTop="12" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="4565" fromTop="10" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="4822" fromTop="15" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="5084" fromTop="20" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="5398" fromTop="13" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="5677" fromTop="18" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="5936" fromTop="23" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="6206" fromTop="19" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="6463" fromTop="24" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="6789" fromTop="20" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="7068" fromTop="16" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="7368" fromTop="9" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="7652" fromTop="14" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="7993" fromTop="19" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="8339" fromTop="24" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="10230" fromTop="27" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="9885" fromTop="22" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="9576" fromTop="17" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="9232" fromTop="12" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="8918" fromTop="7" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="8649" fromTop="2" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="10363" fromTop="2" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="10661" fromTop="7" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="10920" fromTop="12" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11204" fromTop="17" />
-      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="1096" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="16" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="16" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="17" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="12" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="10" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="15" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="20" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="13" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="18" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="23" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="19" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="24" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="20" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="16" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="9" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="14" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="19" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="24" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="27" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="22" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="17" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="12" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="7" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="2" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="2" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="7" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="12" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="11701" fromTop="17" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="939" fromTop="19" />
+      <File id="84737C46-E253-48A6-9E5D-6807BC66CC84/f:Work.cs" caret="12053" fromTop="19" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -83,6 +84,9 @@
       <Item value="log" priority="0" />
       <Item value="DateTime`0" priority="0" />
       <Item value="return" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="resultData" priority="0" />
+      <Item value="res" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FinTA.Overlays.BollingerBands">
       <Item value="Calculate`0" priority="0" />
@@ -107,6 +111,10 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.DataRowCollection">
       <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FinTA.Models.IndicatorsData">
+      <Item value="Instrument" priority="0" />
+      <Item value="Indicatore" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
